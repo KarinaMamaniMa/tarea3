@@ -1,0 +1,150 @@
+*body{
+    background: rgb(47, 46, 46);
+}
+h1{
+    color: rgb(238, 238, 240);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.principal{
+    background-color:  #62152d;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
+
+}
+ 
+
+.caja1{
+    background-color: #ca668b;
+    height: 80px;
+    margin: 5px;
+    grid-column: 1/6;
+}
+.caja2{
+    background-color: #ca668b;
+    height: 70px;
+    margin: 5px;
+    grid-column: 1/4;
+}
+.caja3{
+    background-color:#ca668b;  
+    margin: 5px;
+    color:#ca668b;
+    font-size: 40px;
+}
+.caja4{
+    background-color:#ca668b;
+    margin: 5px;
+    color:#ca668b;
+   font-size: 40px;
+}
+.caja5{
+    background-color: #ca668b;
+    margin: 5px;
+    color: #ca668b;
+    font-size: 40px;
+    
+}
+.caja6{
+    background-color: #ca668b;
+    margin: 5px;
+    height: 80px;
+    grid-column: 2/6;
+}
+.caja7{
+    background-color: #ca668b;
+    margin: 5px;
+    height: 90px;
+    grid-column: 1/5;
+    grid-row: 4/6;
+}
+.caja8{
+    background-color:  #ca668b;
+    height: 40px;
+    margin: 5px;
+    color: #ca668b;
+    font-size: 40px;
+}
+.caja9{
+    background-color: #ca668b;
+    margin: 5px;
+    height: 40px;
+    color:  #ca668b;
+    font-size: 40px;
+}
+/* FLEX */
+.contenedorPrincipal{
+    background-color:#6c596e;
+    float:left;
+}
+.contenedor1{
+    background-color:  #cebacf;
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float:left;
+    
+}
+
+.contenedor2{
+    background-color:  #cebacf;
+    margin: 15px;
+    width: 675px;
+    height: 300px;
+    flex-grow: 5;
+    display: flex;
+    flex-wrap: wrap;
+    float:left;
+}
+
+.cajas1{
+    background-color: #c1a1a4;
+    margin: 10px;
+    margin-top: 40px;
+    width: 650px;
+    height: 120px;
+    
+}
+.cajas{
+    background-color: #c1a1a4;
+    margin: 10px;
+    width: 300px;
+    height: 80px;
+}
+
+.contenedor3{
+    background-color:  #cebacf;
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    /flex-direction: column;/
+    float:left;
+}
+/*BOOSTRAP*/
+.primero{
+    background-color:  rgb(81, 30, 54);
+    margin: 5px;
+   
+    flex-grow: 5;
+    display: flex;
+    
+    
+}
+.c1{
+    background-color: rgb(81, 30, 54);
+    margin: 5px;
+    width: 440px;
+    height: 100px;
+}
+.form-label{
+    color: azure;
+}
